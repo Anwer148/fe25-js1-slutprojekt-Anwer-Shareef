@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Film</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-min.js"></script>
+    <script src="./js/script.js" type="module" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Min Film</h1>
+        <nav>
+            <button id="top-rated-btn">Top 10</button>
+            <button id="popular-btn">Populära</button>
+        </nav>
+        
+        <form id="search-form" class="search-box">
+            <select id="searchType">
+                <option value="movie">Film</option>
+                <option value="person">Person</option>
+            </select>
+            <input type="text" id="userInput" placeholder="Sök här...">
+            <button type="submit">Sök</button>
+        </form>
+    </header>
+
+    <main id="main-content">
+        <div id="error-container" class="error-msg" style="display: none;"></div>
+        <section id="results" class="results-grid"></section>
+    </main>
+
+</body>
+</html>

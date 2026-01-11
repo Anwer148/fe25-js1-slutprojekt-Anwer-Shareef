@@ -1,1 +1,1 @@
-# fe25-js1-slutprojekt-Anwer-Shareef
+En webbaserad applikation för att söka efter filmer och skådespelare. Appen hämtar data i realtid från The Movie Database (TMDB) och presenterar resultaten snyggt med bilder och information för både filmer och personer.
